@@ -4,7 +4,7 @@ Solve optimal power flow problem by Gurobi.
 <img src="https://github.com/yijunchengg/Optimal-Power-Flow/blob/main/power%20flow.png">
 
 
-The constraints (1b) and (1c) are for each bus. The power loss is calclated for each brunch as (1c).
+The constraints (1b) and (1c) are for each bus. The power loss is calculated for each brunch as (1c).
 The objective as (1a) is the sum of the cost function of generator _Pg_ and substation _Ps_, and the power loss.
 
 ## Data
