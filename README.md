@@ -33,7 +33,7 @@ Bus 1 is the slack bus, and there is a generator at bus 4. They can provide acti
 ## Create the optimization model
 For each bus, there are four variables, which are active power _P_ and reactive power _Q_, voltage magnitude |_V_| and phase angle <img src="https://render.githubusercontent.com/render/math?math=\delta">.
 
-We need to introduce new varibales to support constraints containing more general multilinear terms. Further information: [How do I model multilinear terms in Gurobi?](https://support.gurobi.com/hc/en-us/articles/360049744691).
+We need to introduce new variables to support constraints containing more general multilinear terms. Further information: [How do I model multilinear terms in Gurobi?](https://support.gurobi.com/hc/en-us/articles/360049744691).
 
 
 ## Results
